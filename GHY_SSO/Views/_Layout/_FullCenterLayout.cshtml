@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html class="sso-fullcenter-html" lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title | 光华园网站统一身份认证系统</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <!--[if lt IE 9]>
+        @Scripts.Render("~/bundles/ie8")
+    <![endif]-->
+</head>
+<body class="sso-fullcenter-body">
+    <div class="sso-fullcenter-container">
+        @RenderBody()
+    </div>
+</body>
+</html>

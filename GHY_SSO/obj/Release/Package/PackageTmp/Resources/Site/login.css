@@ -1,0 +1,109 @@
+﻿input::-moz-focus-inner,
+button::-moz-focus-inner {
+    outline:none;
+}
+.login-form {
+    max-width: 330px;
+    margin: 0 auto 0 auto;
+    padding: 14px;
+}
+.login-title{
+    text-align:left;
+    position:relative;
+    vertical-align:bottom;
+}
+.login-title span, .login-title small, .login-title img{
+    vertical-align:bottom;
+}
+.login-title span{
+    color:#feb512;
+}
+.login-title small{
+    color:#ccc;
+}
+input.login-username, input.login-password {
+    margin-top: 25px;
+    height: 36px;
+    box-shadow: none !important;
+    position: relative;
+}
+.login-input-err{
+    border-color:#d74040;
+}
+    input.login-username + input.login-password {
+        margin-top: -1px;
+    }
+
+input.login-username {
+    border-radius: 5px 5px 0 0;
+}
+
+    input.login-username:focus {
+        z-index: 2;
+    }
+
+input.login-password {
+    border-radius: 0 0 5px 5px;
+}
+.login-error-list{
+    padding-top:10px;
+}
+.login-error-list ul{
+    list-style:none;
+    padding-left:10px;
+}
+.login-btn-submit, .login-btn-register {
+    margin-top: 10px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0;
+    border-radius: 17px;
+    border: 1px solid #ccc;
+    display: block;
+    -moz-transition: background-color .5s linear;
+    -o-transition: background-color .5s linear;
+    -webkit-transition: background-color .5s linear;
+    transition: background-color .5s linear;
+}
+
+    .login-btn-submit + .login-btn-register {
+        margin-top: 10px;
+    }
+
+.login-btn-submit {
+    color: #fff;
+    background: #4bca6e;
+    border-color: #48b767;
+}
+
+    .login-btn-submit:hover {
+        color: #fff;
+        background: #48b767;
+        border-color: #48b767;
+    }
+
+.login-btn-register {
+    color: #fff;
+    background: #4e9ec2;
+    border-color: #4a8fae;
+    
+}
+    .login-btn-register:visited{
+        color:#fff;
+    }
+    .login-btn-register:focus,.login.login-btn-register:active{
+        outline:none;
+    }
+    .login-btn-register:hover {
+        color: #fff;
+        background: #4a8fae;
+        border-color: #4a8fae;
+    }
+
+.login-forget {
+    color: #4e9ec2;
+    text-align: right;
+    display: block;
+    margin-top: 5px;
+    padding-right: 7px;
+}

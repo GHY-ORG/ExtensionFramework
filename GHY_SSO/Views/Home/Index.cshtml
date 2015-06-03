@@ -1,0 +1,78 @@
+﻿@model GHY_SSO.Models.UpdateInfoModels
+@{
+    ViewBag.Title = "个人信息-个人中心";
+    Layout = "~/Views/_Layout/_MainLayout.cshtml";
+}
+<div class="col-sm-3 col-md-2 sidebar">
+    <ul class="nav nav-sidebar">
+        <li class="active"><a href="~/Home/Index">个人信息 <span class="sr-only">(current)</span></a></li>
+        <li><a href="~/Home/Application">应用列表</a></li>
+        <li><a href="~/Home/Message">我的消息</a></li>
+    </ul>
+</div>
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    @using (Html.BeginForm("PostUpdateInfo", "Home", FormMethod.Post, new { @class = "form-horizontal register-form", @id = "update-form", @role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+        <h2 class="register-title"><span>完善个人信息</span> <small>Improve Infomation</small></h2>
+        <div class="form-group">
+            <label class="col-sm-2 col-xs-12 control-label">学号</label>
+            <div class="col-sm-10 col-xs-12">
+                <input type="text" class="form-control" disabled="disabled" value="@ViewBag.StuNumber">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 col-xs-12 control-label">邮箱</label>
+            <div class="col-sm-10 col-xs-12">
+                <input type="text" class="form-control" disabled="disabled" value="@ViewBag.Email">
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.NickName, Html.DisplayNameFor(x => x.NickName).ToString(), new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(x => x.NickName, new { @class = "form-control", @Value = @ViewBag.NickName })
+                @Html.ValidationMessageFor(x => x.NickName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.Sex, Html.DisplayNameFor(x => x.Sex).ToString(), new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10" style="padding-top:5px">
+                @if (@ViewBag.Sex == 0)
+                {
+                    @Html.RadioButtonFor(x => x.Sex, 0, new { @checked = "checked" })@Html.Encode(" 男 ")
+                    @Html.RadioButtonFor(x => x.Sex, 1)@Html.Encode(" 女")
+                }
+                else if (@ViewBag.Sex == 1)
+                {
+                    @Html.RadioButtonFor(x => x.Sex, 0)@Html.Encode(" 男 ")
+                    @Html.RadioButtonFor(x => x.Sex, 1, new { @checked = "checked" })@Html.Encode(" 女")
+                }
+                else
+                {
+                    @Html.RadioButtonFor(x => x.Sex, 0)@Html.Encode(" 男 ")
+                    @Html.RadioButtonFor(x => x.Sex, 1)@Html.Encode(" 女")
+                }
+                @Html.ValidationMessageFor(x => x.Sex, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.Tel, Html.DisplayNameFor(x => x.Tel).ToString(), new { @class = "col-sm-2 control-label", @placeholder = "6-13位" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(x => x.Tel, new { @class = "form-control", @Value = @ViewBag.Tel })
+                @Html.ValidationMessageFor(x => x.Tel, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.TrueName, Html.DisplayNameFor(x => x.TrueName).ToString(), new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(x => x.TrueName, new { @class = "form-control", @Value = @ViewBag.TrueName, @placeholder = "可不填" })
+                @Html.ValidationMessageFor(x => x.TrueName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group register-bottom-container">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+                <button class="btn btn-success btn-block">保存修改</button>
+            </div>
+        </div>
+    }
+</div>

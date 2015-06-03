@@ -1,0 +1,18 @@
+﻿body {
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+}
+.sso-fullcenter-html{
+    width: 100%;
+    height: 100%;
+}
+.sso-fullcenter-body {
+    background: #f0f0f0;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.sso-fullcenter-container {
+    display: table-cell;
+    vertical-align: middle;
+}

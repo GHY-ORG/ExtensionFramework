@@ -1,0 +1,231 @@
+D:\GHY_SSO\GHY_SSO\bin\GHY_SSO.dll.config
+D:\GHY_SSO\GHY_SSO\bin\GHY_SSO.dll
+D:\GHY_SSO\GHY_SSO\bin\GHY_SSO.pdb
+D:\GHY_SSO\GHY_SSO\bin\Antlr3.Runtime.dll
+D:\GHY_SSO\GHY_SSO\bin\Newtonsoft.Json.dll
+D:\GHY_SSO\GHY_SSO\bin\System.Net.Http.Formatting.dll
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Helpers.dll
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Http.dll
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Http.WebHost.dll
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Mvc.dll
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Optimization.dll
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Razor.dll
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Webpages.Deployment.dll
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Webpages.dll
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Webpages.Razor.dll
+D:\GHY_SSO\GHY_SSO\bin\WebGrease.dll
+D:\GHY_SSO\GHY_SSO\bin\Antlr3.Runtime.pdb
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Optimization.xml
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Razor.xml
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Webpages.xml
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Webpages.Deployment.xml
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Webpages.Razor.xml
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Helpers.xml
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Mvc.xml
+D:\GHY_SSO\GHY_SSO\bin\Newtonsoft.Json.xml
+D:\GHY_SSO\GHY_SSO\bin\System.Net.Http.Formatting.xml
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Http.xml
+D:\GHY_SSO\GHY_SSO\bin\System.Web.Http.WebHost.xml
+D:\GHY_SSO\GHY_SSO\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\GHY_SSO\GHY_SSO\bin\zh-Hans\System.Web.Webpages.resources.dll
+D:\GHY_SSO\GHY_SSO\bin\zh-Hans\System.Web.Webpages.Deployment.resources.dll
+D:\GHY_SSO\GHY_SSO\bin\zh-Hans\System.Web.Webpages.Razor.resources.dll
+D:\GHY_SSO\GHY_SSO\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\GHY_SSO\GHY_SSO\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\GHY_SSO\GHY_SSO\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\GHY_SSO\GHY_SSO\bin\zh-Hans\System.Web.Http.resources.dll
+D:\GHY_SSO\GHY_SSO\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\GHY_SSO\GHY_SSO\obj\Release\GHY_SSO.dll
+D:\GHY_SSO\GHY_SSO\obj\Release\GHY_SSO.pdb
+D:\ExtensionFramework\GHY_SSO\bin\GHY_SSO.dll.config
+D:\ExtensionFramework\GHY_SSO\bin\GHY_SSO.dll
+D:\ExtensionFramework\GHY_SSO\bin\GHY_SSO.pdb
+D:\ExtensionFramework\GHY_SSO\bin\Antlr3.Runtime.dll
+D:\ExtensionFramework\GHY_SSO\bin\EntityFramework.dll
+D:\ExtensionFramework\GHY_SSO\bin\EntityFramework.SqlServer.dll
+D:\ExtensionFramework\GHY_SSO\bin\Hub.dll
+D:\ExtensionFramework\GHY_SSO\bin\Newtonsoft.Json.dll
+D:\ExtensionFramework\GHY_SSO\bin\System.Net.Http.Formatting.dll
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.Helpers.dll
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.Http.dll
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.Http.WebHost.dll
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.Mvc.dll
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.Optimization.dll
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.Razor.dll
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Deployment.dll
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.dll
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Razor.dll
+D:\ExtensionFramework\GHY_SSO\bin\WebGrease.dll
+D:\ExtensionFramework\GHY_SSO\bin\Hub.pdb
+D:\ExtensionFramework\GHY_SSO\bin\Antlr3.Runtime.pdb
+D:\ExtensionFramework\GHY_SSO\bin\EntityFramework.xml
+D:\ExtensionFramework\GHY_SSO\bin\EntityFramework.SqlServer.xml
+D:\ExtensionFramework\GHY_SSO\bin\Newtonsoft.Json.xml
+D:\ExtensionFramework\GHY_SSO\bin\System.Net.Http.Formatting.xml
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.Helpers.xml
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.Http.xml
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.Http.WebHost.xml
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.Mvc.xml
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.Optimization.xml
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.Razor.xml
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.xml
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Deployment.xml
+D:\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Razor.xml
+D:\ExtensionFramework\GHY_SSO\bin\zh-Hans\EntityFramework.resources.dll
+D:\ExtensionFramework\GHY_SSO\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Http.resources.dll
+D:\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.csprojResolveAssemblyReference.cache
+D:\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.dll
+D:\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.pdb
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\GHY_SSO.dll.config
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\GHY_SSO.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\GHY_SSO.pdb
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\Antlr3.Runtime.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\EntityFramework.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\EntityFramework.SqlServer.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\Hub.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\Newtonsoft.Json.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Net.Http.Formatting.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Helpers.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Http.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Http.WebHost.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Mvc.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Optimization.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Razor.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Deployment.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Razor.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\WebGrease.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\Hub.pdb
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\Antlr3.Runtime.pdb
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\EntityFramework.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\EntityFramework.SqlServer.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\Newtonsoft.Json.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Net.Http.Formatting.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Helpers.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Http.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Http.WebHost.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Mvc.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Optimization.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Razor.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Deployment.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Razor.xml
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\EntityFramework.resources.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Helpers.resources.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Http.resources.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.csprojResolveAssemblyReference.cache
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.dll
+F:\visual studio 2013\Projects\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.pdb
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\GHY_SSO.dll.config
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\GHY_SSO.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\GHY_SSO.pdb
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\Antlr3.Runtime.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\EntityFramework.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\EntityFramework.SqlServer.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\Hub.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\Newtonsoft.Json.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Net.Http.Formatting.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.Helpers.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.Http.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.Http.WebHost.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.Mvc.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.Optimization.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.Razor.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Deployment.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Razor.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\WebGrease.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\Hub.pdb
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\Antlr3.Runtime.pdb
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\EntityFramework.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\EntityFramework.SqlServer.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\Newtonsoft.Json.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Net.Http.Formatting.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.Helpers.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.Http.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.Http.WebHost.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.Mvc.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.Optimization.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.Razor.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Deployment.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Razor.xml
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\zh-Hans\EntityFramework.resources.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Helpers.resources.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Http.resources.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.csprojResolveAssemblyReference.cache
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.dll
+F:\Dev\Cookie\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.pdb
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\GHY_SSO.dll.config
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\GHY_SSO.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\GHY_SSO.pdb
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\Antlr3.Runtime.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\EntityFramework.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\EntityFramework.SqlServer.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\Hub.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\Newtonsoft.Json.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Net.Http.Formatting.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Helpers.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Http.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Http.WebHost.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Mvc.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Optimization.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Razor.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Deployment.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Razor.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\WebGrease.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\Hub.pdb
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\Antlr3.Runtime.pdb
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\EntityFramework.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\EntityFramework.SqlServer.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\Newtonsoft.Json.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Net.Http.Formatting.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Helpers.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Http.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Http.WebHost.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Mvc.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Optimization.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.Razor.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Deployment.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\System.Web.WebPages.Razor.xml
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\EntityFramework.resources.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Http.resources.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.csprojResolveAssemblyReference.cache
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.dll
+E:\VS2013Projects\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.pdb

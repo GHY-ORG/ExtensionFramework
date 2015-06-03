@@ -1,0 +1,18 @@
+﻿@model GHY_SSO.Models.ForgetModels
+@{
+    Layout = "~/Views/_Layout/_FullCenterLayout.cshtml";
+    ViewBag.Title = "忘记密码";
+}
+@using (Html.BeginForm("PostForget", "User", FormMethod.Post, new
+        {
+            @class = "form-horizontal login-form",
+            @role = "form"
+        }))
+{
+    @Html.AntiForgeryToken()
+    <h2 class="login-title"><span>忘记密码</span> <small>学号验证</small></h2>
+    @Html.TextBoxFor(x => x.StuNumber, new { @class = "form-control login-username", @placeholder = Html.DisplayNameFor(x => x.StuNumber), @autofocus = "true" })
+    @Html.PasswordFor(x => x.Password, new { @class = "form-control login-password", @placeholder = Html.DisplayNameFor(x => x.Password) })
+    <div class="login-error-list">@Html.ValidationSummary(true)</div>
+    <button class="btn btn-block login-btn-submit">确定</button>
+}

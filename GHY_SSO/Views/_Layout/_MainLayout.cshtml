@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title | 光华园网站统一身份认证系统</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <!--[if lt IE 9]>
+        @Scripts.Render("~/bundles/ie8")
+    <![endif]-->
+</head>
+<body>
+    <!--nav-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="~/Home/Index">光华园 个人中心</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">@ViewBag.NickName，您好！</a></li>
+                    <li><a href="~/User/Exit">退出</a></li>
+                    <li><a href="http://ghy.cn/aboutus/index.html#1" target="_blank">关于我们</a></li>
+                    <li><a href="http://ghy.cn/aboutus/index.html#4" target="_blank">广告宣传</a></li>
+                    <li><a href="http://diary.ghy.cn/" target="_blank">网站日志</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--main-->
+    <div class="container-fluid">
+        <div class="row">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

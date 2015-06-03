@@ -1,0 +1,95 @@
+﻿@model GHY_SSO.Models.RegisterModels
+@{
+    ViewBag.Title = "用户注册";
+    Layout = "~/Views/_Layout/_FullCenterLayout.cshtml";
+}
+@using (Html.BeginForm("PostRegister", "User", FormMethod.Post, new { @class = "form-horizontal register-form", @role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h2 class="register-title"><span>加入我们</span> <small>Join us</small></h2>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Email, Html.DisplayNameFor(x => x.Email).ToString(), new { @class = "col-sm-2 col-xs-12 control-label" })
+        <div class="col-sm-10 col-xs-12">
+            <div class="input-group">
+                @Html.TextBoxFor(x => x.Email, new { @class = "form-control", @placeholder = "确保能收到验证码", @autofocus = "true" })
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" id="getCheckCode">获取验证码</button>
+                </span>
+            </div>
+            @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" })
+        </div>
+
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.CheckCode, Html.DisplayNameFor(x => x.CheckCode).ToString(), new { @class = "col-sm-2 control-label" })
+        <div class="col-sm-10">
+            @Html.TextBoxFor(x => x.CheckCode, new { @class = "form-control", @placeholder = "没收到稍等片刻哟" })
+            @Html.ValidationMessageFor(x => x.CheckCode, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Password, Html.DisplayNameFor(x => x.Password).ToString(), new { @class = "col-sm-2 control-label" })
+        <div class="col-sm-10">
+            @Html.PasswordFor(x => x.Password, new { @class = "form-control", @placeholder = "6-20位" })
+            @Html.ValidationMessageFor(x => x.Password, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.EnsurePassord, Html.DisplayNameFor(x => x.EnsurePassord).ToString(), new { @class = "col-sm-2 control-label" })
+        <div class="col-sm-10">
+            @Html.PasswordFor(x => x.EnsurePassord, new { @class = "form-control", @placeholder = "确认一发" })
+            @Html.ValidationMessageFor(x => x.EnsurePassord, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.NickName, Html.DisplayNameFor(x => x.NickName).ToString(), new { @class = "col-sm-2 control-label" })
+        <div class="col-sm-10">
+            @Html.TextBoxFor(x => x.NickName, new { @class = "form-control", @placeholder = "中英文下划线，3-12位" })
+            @Html.ValidationMessageFor(x => x.NickName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.StuNumber, Html.DisplayNameFor(x => x.StuNumber).ToString(), new { @class = "col-sm-2 control-label" })
+        <div class="col-sm-10">
+            @Html.TextBoxFor(x => x.StuNumber, new { @class = "form-control", @placeholder = "学号" })
+            @Html.ValidationMessageFor(x => x.StuNumber, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.StuPassword, Html.DisplayNameFor(x => x.StuPassword).ToString(), new { @class = "col-sm-2 control-label" })
+        <div class="col-sm-10">
+            @Html.PasswordFor(x => x.StuPassword, new { @class = "form-control", @placeholder = "注意，此处填写上网密码" })
+            @Html.ValidationMessageFor(x => x.StuPassword, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group register-bottom-container">
+        <div class="col-xs-6">
+            <button class="btn btn-success btn-block">注册</button>
+        </div>
+        <div class="col-xs-6">
+            <a href="@Url.Content("~/User/Login")" class="btn btn-primary btn-block">返回登录</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        (function () {
+            $("#getCheckCode").click(function () {
+                $(this).attr("disabled", true);
+                var reg = /^([a-zA-Z0-9_-])+@@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+                var email = $("#Email").val() || "";
+                if (reg.test(email)) {
+                    $.post("@Url.Content("~/User/GetCheckCode")",
+                        {
+                            email:email
+                        }, function (data, status) {
+                            $(this).attr("disabled", false);
+                            alert(data.result);
+                        });
+                } else {
+                    $(this).attr("disabled", false);
+                    alert("邮箱格式不正确");
+                }
+            });
+        })();
+    </script>
+}
+
