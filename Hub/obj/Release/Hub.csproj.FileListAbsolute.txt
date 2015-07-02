@@ -43,3 +43,15 @@ E:\VS2013Projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.res
 E:\VS2013Projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
 E:\VS2013Projects\ExtensionFramework\Hub\obj\Release\Hub.dll
 E:\VS2013Projects\ExtensionFramework\Hub\obj\Release\Hub.pdb
+D:\vs-projects\ExtensionFramework\Hub\bin\Release\Hub.dll.config
+D:\vs-projects\ExtensionFramework\Hub\bin\Release\Hub.dll
+D:\vs-projects\ExtensionFramework\Hub\bin\Release\Hub.pdb
+D:\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.dll
+D:\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.dll
+D:\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.xml
+D:\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.xml
+D:\vs-projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.resources.dll
+D:\vs-projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\vs-projects\ExtensionFramework\Hub\obj\Release\Hub.csprojResolveAssemblyReference.cache
+D:\vs-projects\ExtensionFramework\Hub\obj\Release\Hub.dll
+D:\vs-projects\ExtensionFramework\Hub\obj\Release\Hub.pdb

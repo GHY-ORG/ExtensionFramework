@@ -6,56 +6,56 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>E:\IISTest\zzqTest\GHY_SSO</_PublishTargetUrl>
+    <_PublishTargetUrl>D:\IIS-WebSite\zzqTest\GHY_SSO</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>05/19/2015 02:16:37</publishTime>
+      <publishTime>06/22/2015 16:29:10</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
-      <publishTime>05/19/2015 02:11:14</publishTime>
+      <publishTime>06/22/2015 16:29:10</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
-      <publishTime>05/19/2015 02:11:14</publishTime>
+      <publishTime>06/22/2015 16:29:10</publishTime>
     </File>
     <File Include="bin/GHY_SSO.dll">
-      <publishTime>06/02/2015 21:14:23</publishTime>
+      <publishTime>07/02/2015 21:42:28</publishTime>
     </File>
     <File Include="bin/Hub.dll">
-      <publishTime>06/02/2015 20:36:10</publishTime>
+      <publishTime>07/02/2015 21:42:25</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:12</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
-      <publishTime>05/19/2015 02:16:38</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>05/19/2015 02:16:37</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/System.Web.Http.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/System.Web.Http.WebHost.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>05/19/2015 02:16:37</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>05/18/2015 18:33:26</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>05/19/2015 02:16:37</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>05/19/2015 02:16:37</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>05/19/2015 02:16:37</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>05/19/2015 02:16:37</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/User.dll">
       <publishTime>05/22/2015 14:40:39</publishTime>
@@ -64,148 +64,148 @@
       <publishTime>05/22/2015 14:40:40</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:12</publishTime>
     </File>
     <File Include="bin/zh-Hans/EntityFramework.resources.dll">
-      <publishTime>05/19/2015 02:11:29</publishTime>
+      <publishTime>06/22/2015 16:29:10</publishTime>
     </File>
     <File Include="bin/zh-Hans/EntityFramework.SqlServer.resources.dll">
-      <publishTime>05/19/2015 02:11:29</publishTime>
+      <publishTime>06/22/2015 16:29:10</publishTime>
     </File>
     <File Include="bin/zh-Hans/System.Net.Http.Formatting.resources.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/zh-Hans/System.Web.Helpers.resources.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/zh-Hans/System.Web.Mvc.resources.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/zh-Hans/System.Web.Razor.resources.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/zh-Hans/System.Web.WebPages.Deployment.resources.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/zh-Hans/System.Web.WebPages.Razor.resources.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="bin/zh-Hans/System.Web.WebPages.resources.dll">
-      <publishTime>05/19/2015 02:16:39</publishTime>
+      <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:08</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:08</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:08</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:08</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff2">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:08</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>05/16/2015 15:49:04</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="img/logo.png">
-      <publishTime>05/17/2015 05:37:39</publishTime>
+      <publishTime>06/22/2015 16:29:08</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>05/19/2015 03:26:27</publishTime>
+      <publishTime>06/22/2015 16:29:08</publishTime>
     </File>
     <File Include="Resources/Bootstrap/css/bootstrap-theme.css">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Bootstrap/css/bootstrap-theme.css.map">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Bootstrap/css/bootstrap-theme.min.css">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Bootstrap/css/bootstrap.css">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Bootstrap/css/bootstrap.css.map">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Bootstrap/css/bootstrap.min.css">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Bootstrap/js/bootstrap.js">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Bootstrap/js/bootstrap.min.js">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Bootstrap/js/modernizr-2.6.2.js">
-      <publishTime>05/17/2015 04:07:14</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Bootstrap/js/npm.js">
-      <publishTime>05/17/2015 03:14:32</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Bootstrap/js/respond.js">
-      <publishTime>05/17/2015 04:07:14</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/JQuery/jquery-1.11.3.min.js">
-      <publishTime>05/17/2015 03:16:14</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Site/common.css">
-      <publishTime>05/24/2015 00:51:48</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Site/dashboard.css">
-      <publishTime>05/23/2015 16:02:51</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Site/login.css">
-      <publishTime>05/22/2015 19:10:18</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Site/register.css">
-      <publishTime>05/20/2015 16:30:02</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Views/Home/Application.cshtml">
-      <publishTime>06/02/2015 20:51:54</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>05/23/2015 20:03:21</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Views/Home/Message.cshtml">
-      <publishTime>05/23/2015 16:03:13</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Views/User/ChangePwd.cshtml">
-      <publishTime>05/23/2015 01:12:53</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Views/User/Forget.cshtml">
-      <publishTime>05/23/2015 01:12:38</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Views/User/Login.cshtml">
-      <publishTime>05/22/2015 19:14:35</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Views/User/Register.cshtml">
-      <publishTime>05/24/2015 00:37:11</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Views/User/UpdateInfo.cshtml">
       <publishTime>05/23/2015 03:03:00</publishTime>
     </File>
     <File Include="Views/web.config">
-      <publishTime>05/17/2015 03:30:00</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Views/_Layout/_FullCenterLayout.cshtml">
-      <publishTime>05/22/2015 15:39:44</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Views/_Layout/_MainLayout.cshtml">
-      <publishTime>05/23/2015 21:18:57</publishTime>
+      <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/02/2015 20:36:18</publishTime>
+      <publishTime>07/02/2015 21:42:30</publishTime>
     </File>
   </ItemGroup>
 </Project>
