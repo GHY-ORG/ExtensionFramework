@@ -31,13 +31,13 @@ namespace Hub.Interface.User
         /// </summary>
         /// <param name="user"></param>
         /// <returns></returns>
-        Guid CreateAccount(Hub.User user);
+        Guid CreateAccount(Hub.Models.User user);
         /// <summary>
         /// 用户更新
         /// </summary>
         /// <param name="user"></param>
         /// <returns></returns>
-        bool UpdateAccount(Hub.User user);
+        bool UpdateAccount(Hub.Models.User user);
         /// <summary>
         /// 用户删除
         /// </summary>
@@ -49,7 +49,7 @@ namespace Hub.Interface.User
         /// </summary>
         /// <param name="userID"></param>
         /// <returns></returns>
-        Hub.User GetAccount(Guid userID);
+        Hub.Models.User GetAccount(Guid userID);
         /// <summary>
         /// 验证昵称是否占用
         /// </summary>
@@ -68,6 +68,12 @@ namespace Hub.Interface.User
         /// <param name="userid"></param>
         /// <returns></returns>
         string GetNickNameByUserID(Guid userid);
+        /// <summary>
+        /// 通过UserID数组获取昵称数组
+        /// </summary>
+        /// <param name="userid"></param>
+        /// <returns></returns>
+        string[] GetNickNameListByUserID(Guid[] userid);
         /// <summary>
         /// 重置密码
         /// </summary>

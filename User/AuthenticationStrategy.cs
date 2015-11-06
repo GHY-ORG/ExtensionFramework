@@ -4,7 +4,7 @@ using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Data.Linq;
 using System.Security.Cryptography;
-using Hub;
+using Hub.Models;
 using Hub.Interface.User;
 using User.cn.edu.swufe.news;
 using System.Text;
@@ -62,9 +62,9 @@ namespace User
         /// <returns></returns>
         public Token GetSessionByToken(string token, string checkcode)
         {
-            using (var db = new Hub.ExtensionFrameworkEntities2015())
+            using (var db = new ExtensionFrameworkContext())
             {
-                var sessionList = from o in db.Token
+                var sessionList = from o in db.Tokens
                                   where o.Status == 1 && o.Expire > DateTime.Now && o.TokenCode.Equals(token) && o.CheckCode.Equals(checkcode)
                                   select o;
                 return sessionList.Count() == 0 ? null : sessionList.ToList()[0];
@@ -76,12 +76,12 @@ namespace User
         /// <param name="email">邮箱</param>
         /// <param name="password">密码</param>
         /// <returns></returns>
-        public Hub.User GetUser(string email, string password)
+        public Hub.Models.User GetUser(string email, string password)
         {
-            using (var db = new Hub.ExtensionFrameworkEntities2015())
+            using (var db = new ExtensionFrameworkContext())
             {
                 var encodePwd = CreateMD5HashCode(password);
-                var userList = from o in db.User
+                var userList = from o in db.Users
                                where o.Email.Equals(email) && o.Password.Equals(encodePwd)
                                select o;
                 if (userList.Count() < 1) return null;
@@ -121,7 +121,7 @@ namespace User
         public int InsertTokenToDB(Guid userID, string tokenCode, string checkCode)
         {
             Guid tokenID = Guid.NewGuid();
-            Hub.Token one = new Token
+            Hub.Models.Token one = new Token
             {
                 TokenID = Guid.NewGuid(),
                 UserID = userID,
@@ -130,9 +130,9 @@ namespace User
                 Expire = DateTime.Now + TimeSpan.FromDays(30),
                 Status = 1
             };
-            using (var db = new Hub.ExtensionFrameworkEntities2015())
+            using (var db = new ExtensionFrameworkContext())
             {
-                db.Token.Add(one);
+                db.Tokens.Add(one);
                 return db.SaveChanges();
             }
         }
@@ -143,9 +143,9 @@ namespace User
         /// <returns></returns>
         public bool DelToken(string tokenCode)
         {
-            using (var db = new Hub.ExtensionFrameworkEntities2015())
+            using (var db = new ExtensionFrameworkContext())
             {
-                var getToken = db.Token.Where(x => x.TokenCode.Equals(tokenCode) && x.Status > 0).First();
+                var getToken = db.Tokens.Where(x => x.TokenCode.Equals(tokenCode) && x.Status > 0).First();
                 if (getToken != null)
                 {
                     getToken.Status = 0;

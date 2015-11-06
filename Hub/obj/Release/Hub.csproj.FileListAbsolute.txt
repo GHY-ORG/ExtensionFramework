@@ -1,57 +1,46 @@
-D:\ExtensionFramework\Hub\bin\Release\Hub.dll.config
-D:\ExtensionFramework\Hub\bin\Release\Hub.dll
-D:\ExtensionFramework\Hub\bin\Release\Hub.pdb
-D:\ExtensionFramework\Hub\bin\Release\EntityFramework.dll
-D:\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.dll
-D:\ExtensionFramework\Hub\bin\Release\EntityFramework.xml
-D:\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.xml
-D:\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.resources.dll
-D:\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
-D:\ExtensionFramework\Hub\obj\Release\Hub.dll
-D:\ExtensionFramework\Hub\obj\Release\Hub.pdb
-F:\visual studio 2013\Projects\ExtensionFramework\Hub\bin\Release\Hub.dll.config
-F:\visual studio 2013\Projects\ExtensionFramework\Hub\bin\Release\Hub.dll
-F:\visual studio 2013\Projects\ExtensionFramework\Hub\bin\Release\Hub.pdb
-F:\visual studio 2013\Projects\ExtensionFramework\Hub\bin\Release\EntityFramework.dll
-F:\visual studio 2013\Projects\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.dll
-F:\visual studio 2013\Projects\ExtensionFramework\Hub\bin\Release\EntityFramework.xml
-F:\visual studio 2013\Projects\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.xml
-F:\visual studio 2013\Projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.resources.dll
-F:\visual studio 2013\Projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
-F:\visual studio 2013\Projects\ExtensionFramework\Hub\obj\Release\Hub.csprojResolveAssemblyReference.cache
-F:\visual studio 2013\Projects\ExtensionFramework\Hub\obj\Release\Hub.dll
-F:\visual studio 2013\Projects\ExtensionFramework\Hub\obj\Release\Hub.pdb
-F:\Dev\Cookie\ExtensionFramework\Hub\bin\Release\Hub.dll.config
-F:\Dev\Cookie\ExtensionFramework\Hub\bin\Release\Hub.dll
-F:\Dev\Cookie\ExtensionFramework\Hub\bin\Release\Hub.pdb
-F:\Dev\Cookie\ExtensionFramework\Hub\bin\Release\EntityFramework.dll
-F:\Dev\Cookie\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.dll
-F:\Dev\Cookie\ExtensionFramework\Hub\bin\Release\EntityFramework.xml
-F:\Dev\Cookie\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.xml
-F:\Dev\Cookie\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.resources.dll
-F:\Dev\Cookie\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
-F:\Dev\Cookie\ExtensionFramework\Hub\obj\Release\Hub.dll
-F:\Dev\Cookie\ExtensionFramework\Hub\obj\Release\Hub.pdb
-E:\VS2013Projects\ExtensionFramework\Hub\bin\Release\Hub.dll.config
-E:\VS2013Projects\ExtensionFramework\Hub\bin\Release\Hub.dll
-E:\VS2013Projects\ExtensionFramework\Hub\bin\Release\Hub.pdb
-E:\VS2013Projects\ExtensionFramework\Hub\bin\Release\EntityFramework.dll
-E:\VS2013Projects\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.dll
-E:\VS2013Projects\ExtensionFramework\Hub\bin\Release\EntityFramework.xml
-E:\VS2013Projects\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.xml
-E:\VS2013Projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.resources.dll
-E:\VS2013Projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
-E:\VS2013Projects\ExtensionFramework\Hub\obj\Release\Hub.dll
-E:\VS2013Projects\ExtensionFramework\Hub\obj\Release\Hub.pdb
-D:\vs-projects\ExtensionFramework\Hub\bin\Release\Hub.dll.config
-D:\vs-projects\ExtensionFramework\Hub\bin\Release\Hub.dll
-D:\vs-projects\ExtensionFramework\Hub\bin\Release\Hub.pdb
-D:\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.dll
-D:\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.dll
-D:\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.xml
-D:\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.xml
-D:\vs-projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.resources.dll
-D:\vs-projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
-D:\vs-projects\ExtensionFramework\Hub\obj\Release\Hub.csprojResolveAssemblyReference.cache
-D:\vs-projects\ExtensionFramework\Hub\obj\Release\Hub.dll
-D:\vs-projects\ExtensionFramework\Hub\obj\Release\Hub.pdb
+D:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\Hub.dll.config
+D:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\Hub.dll
+D:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\Hub.pdb
+D:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.dll
+D:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.dll
+D:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.xml
+D:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.xml
+D:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.resources.dll
+D:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\WorkSpace\vs-projects\ExtensionFramework\Hub\obj\Release\Hub.csprojResolveAssemblyReference.cache
+D:\WorkSpace\vs-projects\ExtensionFramework\Hub\obj\Release\Hub.dll
+D:\WorkSpace\vs-projects\ExtensionFramework\Hub\obj\Release\Hub.pdb
+G:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\Hub.dll.config
+G:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\Hub.dll
+G:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\Hub.pdb
+G:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.dll
+G:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.dll
+G:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.xml
+G:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.xml
+G:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.resources.dll
+G:\WorkSpace\vs-projects\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\WorkSpace\vs-projects\ExtensionFramework\Hub\obj\Release\Hub.dll
+G:\WorkSpace\vs-projects\ExtensionFramework\Hub\obj\Release\Hub.pdb
+F:\个人存储\qh\ExtensionFramework\ExtensionFramework\Hub\bin\Release\Hub.dll.config
+F:\个人存储\qh\ExtensionFramework\ExtensionFramework\Hub\bin\Release\Hub.dll
+F:\个人存储\qh\ExtensionFramework\ExtensionFramework\Hub\bin\Release\Hub.pdb
+F:\个人存储\qh\ExtensionFramework\ExtensionFramework\Hub\bin\Release\EntityFramework.dll
+F:\个人存储\qh\ExtensionFramework\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.dll
+F:\个人存储\qh\ExtensionFramework\ExtensionFramework\Hub\bin\Release\EntityFramework.xml
+F:\个人存储\qh\ExtensionFramework\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.xml
+F:\个人存储\qh\ExtensionFramework\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.resources.dll
+F:\个人存储\qh\ExtensionFramework\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\个人存储\qh\ExtensionFramework\ExtensionFramework\Hub\obj\Release\Hub.dll
+F:\个人存储\qh\ExtensionFramework\ExtensionFramework\Hub\obj\Release\Hub.pdb
+F:\个人存储\qh\ExtensionFramework\ExtensionFramework\Hub\obj\Release\Hub.csprojResolveAssemblyReference.cache
+F:\个人存储\ExtensionFramework\Hub\bin\Release\Hub.dll.config
+F:\个人存储\ExtensionFramework\Hub\bin\Release\Hub.dll
+F:\个人存储\ExtensionFramework\Hub\bin\Release\Hub.pdb
+F:\个人存储\ExtensionFramework\Hub\bin\Release\EntityFramework.dll
+F:\个人存储\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.dll
+F:\个人存储\ExtensionFramework\Hub\bin\Release\EntityFramework.xml
+F:\个人存储\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.xml
+F:\个人存储\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.resources.dll
+F:\个人存储\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\个人存储\ExtensionFramework\Hub\obj\Release\Hub.dll
+F:\个人存储\ExtensionFramework\Hub\obj\Release\Hub.pdb

@@ -129,6 +129,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EmailTemplate\index.html" />
     <Content Include="Global.asax" />
     <Content Include="img\logo.png" />
     <Content Include="Resources\Bootstrap\css\bootstrap-theme.css" />
@@ -203,7 +204,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Hub\Hub.csproj">
-      <Project>{df578110-1ffa-417a-bd05-0c8d1aaf097f}</Project>
+      <Project>{eab3779c-4581-4bd0-9c0a-9abd5f7779f6}</Project>
       <Name>Hub</Name>
     </ProjectReference>
   </ItemGroup>

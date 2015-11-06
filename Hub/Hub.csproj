@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DF578110-1FFA-417A-BD05-0C8D1AAF097F}</ProjectGuid>
+    <ProjectGuid>{EAB3779C-4581-4BD0-9C0A-9ABD5F7779F6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Hub</RootNamespace>
@@ -41,12 +41,8 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.Composition" />
-    <Reference Include="System.ComponentModel.Composition.Registration" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -54,56 +50,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EFModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EFModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EFModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EFModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EFModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EFModel.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Helper\EmailHelper.cs" />
     <Compile Include="Interface\User\IAccountStrategy.cs" />
     <Compile Include="Interface\User\IAuthenticationStrategy.cs" />
+    <Compile Include="Interface\User\IAuthorizeStrategy.cs" />
+    <Compile Include="Models\ExtensionFrameworkContext.cs" />
+    <Compile Include="Models\Mapping\RoleMap.cs" />
+    <Compile Include="Models\Mapping\sysdiagramMap.cs" />
+    <Compile Include="Models\Mapping\TokenMap.cs" />
+    <Compile Include="Models\Mapping\UserMap.cs" />
+    <Compile Include="Models\Mapping\User_RoleMap.cs" />
+    <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\sysdiagram.cs" />
+    <Compile Include="Models\Token.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\User_Role.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Token.cs">
-      <DependentUpon>EFModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="User.cs">
-      <DependentUpon>EFModel.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Factory\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.Config">
-      <SubType>Designer</SubType>
-    </None>
-    <EntityDeploy Include="EFModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>EFModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="EFModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EFModel.edmx</DependentUpon>
-      <LastGenOutput>EFModel.Context.cs</LastGenOutput>
-    </None>
-    <None Include="EFModel.edmx.diagram">
-      <DependentUpon>EFModel.edmx</DependentUpon>
-    </None>
-    <None Include="EFModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EFModel.edmx</DependentUpon>
-      <LastGenOutput>EFModel.cs</LastGenOutput>
-    </None>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

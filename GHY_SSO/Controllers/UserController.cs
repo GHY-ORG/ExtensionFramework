@@ -26,7 +26,7 @@ namespace GHY_SSO.Controllers
             if (cookie != null)
             {
                 string token = cookie.Value;
-                Hub.Token token_record = AuthentiationStrategy.GetSessionByToken(token, AuthentiationStrategy.CreateCheckCode(Request.UserAgent, Request.UserHostAddress));
+                Hub.Models.Token token_record = AuthentiationStrategy.GetSessionByToken(token, AuthentiationStrategy.CreateCheckCode(Request.UserAgent, Request.UserHostAddress));
                 if (token_record != null)
                 {
                     Session["User"] = token_record.UserID;
@@ -37,7 +37,7 @@ namespace GHY_SSO.Controllers
                         if (field.Equals("ghy.cn") || field.Equals("ghy.swufe.edu.cn") || field.Equals("www.ghy.cn") || field.Equals("www.ghy.swufe.edu.cn"))
                         {
                             return Redirect(returnUrl + "?token=" + token_record.TokenCode);
-                        }
+                        } 
                     }
                     else
                     {
@@ -71,13 +71,13 @@ namespace GHY_SSO.Controllers
         {
             if (!ModelState.IsValid)
             {
-                ModelState.AddModelError("", "邮箱密码非法格式");
+                ModelState.AddModelError("", "请输入有效的邮箱和密码");
                 return View("Login", model);
             }
             else
             {
                 string returnUrl = Request.QueryString["ReturnUrl"];
-                Hub.User user = AuthentiationStrategy.GetUser(model.Email, model.Password);
+                Hub.Models.User user = AuthentiationStrategy.GetUser(model.Email, model.Password);
                 if (user == null)
                 {
                     ModelState.AddModelError("", "邮箱或密码错误");
@@ -87,7 +87,6 @@ namespace GHY_SSO.Controllers
                 {
                     Session["User"] = user.UserID;
                     string token = AuthentiationStrategy.CreateToken(model.Email, model.Password);
-
 
                     string token_checkcode = AuthentiationStrategy.CreateCheckCode(Request.UserAgent, Request.UserHostAddress);
                     AuthentiationStrategy.InsertTokenToDB(user.UserID, token, token_checkcode);
@@ -152,10 +151,11 @@ namespace GHY_SSO.Controllers
                     ModelState.AddModelError("StuPassword", "学号认证失败");
                     return View("Register", model);
                 }
+
                 //验证通过后
                 Session.Remove("CheckCode");
                 //新用户插入数据库 session赋值
-                Hub.User user = new Hub.User
+                Hub.Models.User user = new Hub.Models.User
                 {
                     Email = model.Email,
                     Password = model.Password,
@@ -208,16 +208,19 @@ namespace GHY_SSO.Controllers
 
             if (!ModelState.IsValid)
             {
+                ViewBag.Email = AccountStrategy.GetEmailByStuNum(stunumber);
                 return View("ChangePwd", model);
             }
             if (!model.Password.Equals(model.EnsurePassword))
             {
                 ModelState.AddModelError("", "密码不一致");
+                ViewBag.Email = AccountStrategy.GetEmailByStuNum(stunumber);
                 return View("ChangePwd", model);
             }
             if (!AccountStrategy.UpdatePassword(stunumber, model.Password))
             {
                 ModelState.AddModelError("", "重置密码异常");
+                ViewBag.Email = AccountStrategy.GetEmailByStuNum(stunumber);
                 return View("ChangePwd", model);
             }
             return Content("<script>alert('重置密码成功！请登录');window.location.href='Login'</script>");
@@ -241,12 +244,34 @@ namespace GHY_SSO.Controllers
             }
             string checkcode = AccountStrategy.CreateCheckCode(6);
             Session["CheckCode"] = new Models.CheckCodeModels { CheckCode = checkcode, CreateTime = DateTime.Now, Email = email };
-            string content = "亲爱的Swufer：\n您的注册验证码为:" + checkcode + "\n--光华园网站--";
+            //string content = "亲爱的Swufer：\n您的注册验证码为:" + checkcode + "\n--光华园网站--";
+            string content = ReplaceText(checkcode);
 
-            Hub.Helper.EmailHelper.SendEmailSSL(new string[] { email }, new string[] { "zhzq326@ghy.cn" }, "注册验证码", content, false, "ghyers@ghy.cn", "光华园网站");
+            Hub.Helper.EmailHelper.SendEmailSSL(new string[] { email }, new string[] { "598260403@qq.com" }, "注册验证码", content, true, "ghyers@ghy.cn", "光华园网站");
             return Json(new { result = "已经将验证码发往邮箱" });
         }
         #endregion
+
+        /// <summary>   
+        ///替换邮件html模板中的字段值   
+        /// </summary>   
+        public string ReplaceText(string checkcode)  
+        {  
+            string path = string.Empty;
+
+            path = System.Web.HttpContext.Current.Server.MapPath("..\\EmailTemplate\\index.html");  
+             
+            if (path == string.Empty)  
+            {  
+                return string.Empty;
+            }  
+            System.IO.StreamReader sr = new System.IO.StreamReader(path);  
+            string str = string.Empty;  
+            str = sr.ReadToEnd();
+            str = str.Replace("$CheckCode$", checkcode);
+  
+            return str;  
+        }
 
         public ActionResult Exit()
         {

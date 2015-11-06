@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Hub.Interface.User
 {
@@ -25,14 +29,14 @@ namespace Hub.Interface.User
         /// <param name="token">Token</param>
         /// <param name="checkcode">CheckCode校验码</param>
         /// <returns></returns>
-        Token GetSessionByToken(string token, string checkcode);
+        Hub.Models.Token GetSessionByToken(string token, string checkcode);
         /// <summary>
         /// 利用邮箱密码获取用户对象
         /// </summary>
         /// <param name="email">邮箱</param>
         /// <param name="password">密码</param>
         /// <returns></returns>
-        Hub.User GetUser(string email, string password);
+        Hub.Models.User GetUser(string email, string password);
         /// <summary>
         /// 由邮箱，密码生成token
         /// </summary>

@@ -6,7 +6,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>D:\IIS-WebSite\zzqTest\GHY_SSO</_PublishTargetUrl>
+    <_PublishTargetUrl>E:\web\GHY_SSO</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
@@ -19,10 +19,13 @@
       <publishTime>06/22/2015 16:29:10</publishTime>
     </File>
     <File Include="bin/GHY_SSO.dll">
-      <publishTime>07/02/2015 21:42:28</publishTime>
+      <publishTime>11/06/2015 16:32:38</publishTime>
     </File>
     <File Include="bin/Hub.dll">
-      <publishTime>07/02/2015 21:42:25</publishTime>
+      <publishTime>11/06/2015 16:32:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>06/22/2015 16:29:12</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>06/22/2015 16:29:12</publishTime>
@@ -99,6 +102,21 @@
     <File Include="bin/zh-Hans/System.Web.WebPages.resources.dll">
       <publishTime>06/22/2015 16:29:11</publishTime>
     </File>
+    <File Include="EmailTemplate/css/index.css">
+      <publishTime>07/24/2015 13:19:49</publishTime>
+    </File>
+    <File Include="EmailTemplate/css/index.min.css">
+      <publishTime>07/24/2015 13:17:45</publishTime>
+    </File>
+    <File Include="EmailTemplate/images/erweima.png">
+      <publishTime>05/23/2015 21:41:00</publishTime>
+    </File>
+    <File Include="EmailTemplate/images/logo.png">
+      <publishTime>05/23/2015 21:41:00</publishTime>
+    </File>
+    <File Include="EmailTemplate/index.html">
+      <publishTime>07/24/2015 13:59:48</publishTime>
+    </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
       <publishTime>06/22/2015 16:29:08</publishTime>
     </File>
@@ -121,7 +139,7 @@
       <publishTime>06/22/2015 16:29:08</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>06/22/2015 16:29:08</publishTime>
+      <publishTime>07/24/2015 15:12:04</publishTime>
     </File>
     <File Include="Resources/Bootstrap/css/bootstrap-theme.css">
       <publishTime>06/22/2015 16:29:07</publishTime>
@@ -160,7 +178,7 @@
       <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Resources/Site/common.css">
-      <publishTime>06/22/2015 16:29:07</publishTime>
+      <publishTime>09/28/2015 18:46:04</publishTime>
     </File>
     <File Include="Resources/Site/dashboard.css">
       <publishTime>06/22/2015 16:29:07</publishTime>
@@ -172,7 +190,7 @@
       <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Views/Home/Application.cshtml">
-      <publishTime>06/22/2015 16:29:07</publishTime>
+      <publishTime>10/29/2015 14:47:14</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>06/22/2015 16:29:07</publishTime>
@@ -205,7 +223,7 @@
       <publishTime>06/22/2015 16:29:07</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/02/2015 21:42:30</publishTime>
+      <publishTime>11/06/2015 16:32:45</publishTime>
     </File>
   </ItemGroup>
 </Project>

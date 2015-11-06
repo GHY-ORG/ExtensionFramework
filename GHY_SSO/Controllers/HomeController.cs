@@ -22,7 +22,7 @@ namespace GHY_SSO.Controllers
         {
             if (Session["User"] != null)
             {
-                Hub.User user = AccountStrategy.GetAccount(new Guid(Session["User"].ToString()));
+                Hub.Models.User user = AccountStrategy.GetAccount(new Guid(Session["User"].ToString()));
                 ViewBag.StuNumber = user.StuNumber;
                 ViewBag.Email = user.Email;
                 ViewBag.NickName = user.NickName;
@@ -39,7 +39,7 @@ namespace GHY_SSO.Controllers
         {
             if (Session["User"] != null)
             {
-                Hub.User user = AccountStrategy.GetAccount(new Guid(Session["User"].ToString()));
+                Hub.Models.User user = AccountStrategy.GetAccount(new Guid(Session["User"].ToString()));
                 HttpCookie cookie = Request.Cookies["ghy_sso_token"];
                 ViewBag.NickName = user.NickName;
                 ViewBag.Token = cookie.Value;
@@ -52,7 +52,7 @@ namespace GHY_SSO.Controllers
         {
             if (Session["User"] != null)
             {
-                Hub.User user = AccountStrategy.GetAccount(new Guid(Session["User"].ToString()));
+                Hub.Models.User user = AccountStrategy.GetAccount(new Guid(Session["User"].ToString()));
                 ViewBag.NickName = user.NickName;
                 return View();
             }
@@ -63,7 +63,7 @@ namespace GHY_SSO.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult PostUpdateInfo(Models.UpdateInfoModels model)
         {
-            Hub.User user = AccountStrategy.GetAccount(new Guid(Session["User"].ToString()));
+            Hub.Models.User user = AccountStrategy.GetAccount(new Guid(Session["User"].ToString()));
             ViewBag.StuNumber = user.StuNumber;
             ViewBag.Email = user.Email;
             ViewBag.NickName = user.NickName;
@@ -88,7 +88,7 @@ namespace GHY_SSO.Controllers
                     return View("Index", model);
                 }
                 //更新用户信息
-                Hub.User user2 = new Hub.User
+                Hub.Models.User user2 = new Hub.Models.User
                 {
                     UserID = userid,
                     NickName = model.NickName,
@@ -98,7 +98,7 @@ namespace GHY_SSO.Controllers
                 };
                 if (!AccountStrategy.UpdateAccount(user2))
                 {
-                    return Content("<script>alert('完善信息异常！');window.location.href='Index'</script>");
+                    return Content("<script>alert('你真的有改信息吗~');window.location.href='Index'</script>");
                 }
                 return Content("<script>alert('完善信息成功！');window.location.href='Index'</script>");
             }

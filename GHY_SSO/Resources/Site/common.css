@@ -16,3 +16,10 @@
     display: table-cell;
     vertical-align: middle;
 }
+
+.sso-fullcenter-container form{
+    padding-top:0;
+}
+.sso-fullcenter-container h2{
+    margin-top:0;
+}
