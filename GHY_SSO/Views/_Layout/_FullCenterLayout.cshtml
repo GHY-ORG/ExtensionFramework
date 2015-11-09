@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title | 光华园网站统一身份认证系统</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    @Styles.Render(SiteConfig.SiteUrl+"/Content/css")
+    @Scripts.Render(SiteConfig.SiteUrl+"/bundles/jquery")
+    @Scripts.Render(SiteConfig.SiteUrl+"/bundles/bootstrap")
     <!--[if lt IE 9]>
-        @Scripts.Render("~/bundles/ie8")
+        @Scripts.Render(SiteConfig.SiteUrl+"/bundles/ie8")
     <![endif]-->
 </head>
 <body class="sso-fullcenter-body">

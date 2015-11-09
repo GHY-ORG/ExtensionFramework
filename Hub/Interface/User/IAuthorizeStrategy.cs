@@ -35,7 +35,7 @@ namespace Hub.Interface.User
         /// </summary>
         /// <param name="RoleIDList"></param>
         /// <returns></returns>
-        string[] GetRoleName(int[] RoleIDList);
+        List<Guid> GetRoleName(int[] RoleIDList);
 
         /// <summary>
         /// 获取用户的权限

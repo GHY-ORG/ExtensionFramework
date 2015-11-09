@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using System.Text;
-using System.Security.Cryptography;
 using System.ComponentModel.Composition;
+using System.Web.Mvc;
+using Hub.Interface.User;
+using System.Web;
 
 namespace GHY_SSO.Controllers
 {
@@ -32,7 +29,7 @@ namespace GHY_SSO.Controllers
                 return View();
             }
             else
-                return Redirect("~/User/Login");
+                return Redirect(SiteConfig.SiteUrl+"/User/Login");
         }
 
         public ActionResult Application()
@@ -45,7 +42,7 @@ namespace GHY_SSO.Controllers
                 ViewBag.Token = cookie.Value;
                 return View();
             }
-            else return Redirect("~/User/Login");
+            else return Redirect(SiteConfig.SiteUrl+"/User/Login");
         }
 
         public ActionResult Message()
@@ -56,7 +53,7 @@ namespace GHY_SSO.Controllers
                 ViewBag.NickName = user.NickName;
                 return View();
             }
-            else return Redirect("~/User/Login");
+            else return Redirect(SiteConfig.SiteUrl+"/User/Login");
         }
 
         [HttpPost]

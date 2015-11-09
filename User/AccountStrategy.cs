@@ -33,7 +33,6 @@ namespace User
         }
         public Guid CreateAccount(Hub.Models.User user)
         {
-            user.UserID = Guid.NewGuid();
             user.Password = CreateMD5HashCode(user.Password);
             user.RegisterTime = DateTime.Now;
             user.Status = 1;
@@ -136,6 +135,16 @@ namespace User
                 var result = (from o in db.Users
                               where o.UserID.Equals(userid) && o.Status > 0
                               select o.NickName).First();
+                return result;
+            }
+        }
+        public string GetAvatarByUserID(Guid userid)
+        {
+            using (var db = new ExtensionFrameworkContext())
+            {
+                var result = (from o in db.Users
+                              where o.UserID.Equals(userid) && o.Status > 0
+                              select o.Avatar).First();
                 return result;
             }
         }

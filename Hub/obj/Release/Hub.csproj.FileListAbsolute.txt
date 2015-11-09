@@ -42,5 +42,6 @@ F:\个人存储\ExtensionFramework\Hub\bin\Release\EntityFramework.xml
 F:\个人存储\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.xml
 F:\个人存储\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.resources.dll
 F:\个人存储\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\个人存储\ExtensionFramework\Hub\obj\Release\Hub.csprojResolveAssemblyReference.cache
 F:\个人存储\ExtensionFramework\Hub\obj\Release\Hub.dll
 F:\个人存储\ExtensionFramework\Hub\obj\Release\Hub.pdb

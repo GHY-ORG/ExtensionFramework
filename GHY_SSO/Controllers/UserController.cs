@@ -1,10 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.Composition;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Web;
 using System.Web.Mvc;
+using Hub.Interface.User;
+using System.Web;
+using System.Text.RegularExpressions;
+using System.Drawing;
+using System.Text;
+using System.Drawing.Imaging;
 
 namespace GHY_SSO.Controllers
 {
@@ -41,7 +43,7 @@ namespace GHY_SSO.Controllers
                     }
                     else
                     {
-                        return Redirect("~/Home/Index");
+                        return Redirect(SiteConfig.SiteUrl+"/Home/Index");
                     }
                 }
             }
@@ -60,7 +62,7 @@ namespace GHY_SSO.Controllers
             if (Session["StuNumber"] != null)
                 return View();
             else
-                return Redirect("~/User/Forget");
+                return Redirect(SiteConfig.SiteUrl+"/User/Forget");
         }
         #endregion
 
@@ -99,19 +101,19 @@ namespace GHY_SSO.Controllers
                     if (returnUrl != null)
                     {
                         string field = returnUrl.Substring(7).Split('/')[0].ToLower();
-                        if (field.Equals("ghy.cn") || field.Equals("ghy.swufe.edu.cn") || field.Equals("www.ghy.cn") || field.Equals("www.ghy.swufe.edu.cn"))
+                        if (field.Equals("firewood.ghy.cn") || field.Equals("ghy.cn") || field.Equals("ghy.swufe.edu.cn") || field.Equals("www.ghy.cn") || field.Equals("www.ghy.swufe.edu.cn"))
                         {
                             return Redirect(returnUrl + "?token=" + token);
                         }
                     }
                 }
             }
-            return Redirect("~/Home/Index");
+            return Redirect(SiteConfig.SiteUrl+"/Home/Index");
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult PostRegister(Models.RegisterModels model)
+        public ActionResult PostRegister(Models.RegisterModels model, HttpPostedFileBase file)
         {
             if (!ModelState.IsValid)
             {
@@ -146,9 +148,16 @@ namespace GHY_SSO.Controllers
                     ModelState.AddModelError("NickName", "昵称被占用咯~");
                     return View("Register", model);
                 }
-                if (AuthentiationStrategy.ValidStuNumber(model.StuNumber, model.StuPassword) == 0)
+                /*if (AuthentiationStrategy.ValidStuNumber(model.StuNumber, model.StuPassword) == 0)
                 {
                     ModelState.AddModelError("StuPassword", "学号认证失败");
+                    return View("Register", model);
+                }*/
+
+                //图片不超过5M
+                if (file == null && file.ContentLength > 1024 * 1024 * 5)
+                {
+                    ModelState.AddModelError("", "请上传规定大小的图片");
                     return View("Register", model);
                 }
 
@@ -157,11 +166,27 @@ namespace GHY_SSO.Controllers
                 //新用户插入数据库 session赋值
                 Hub.Models.User user = new Hub.Models.User
                 {
+                    UserID = Guid.NewGuid(),
                     Email = model.Email,
                     Password = model.Password,
                     NickName = model.NickName,
                     StuNumber = model.StuNumber
                 };
+
+                string absolutePath = SiteConfig.SitePath;
+                string path = GetPath(user.UserID.ToString(), "User");
+                string fullPath = absolutePath + path;
+                string url = path + DateTime.Now.Ticks + ".png";
+                using (var stream = file.InputStream)
+                {
+                    Image img = Image.FromStream(stream);
+                    var bmp = ResizeImg(img);
+                    if (!System.IO.Directory.Exists(fullPath))
+                        System.IO.Directory.CreateDirectory(fullPath);
+                    bmp.Save(absolutePath+url, ImageFormat.Png);
+                }
+                user.Avatar = url;
+
                 Session["User"] = AccountStrategy.CreateAccount(user);
                 //token create
                 string token = AuthentiationStrategy.CreateToken(model.Email, model.Password);
@@ -174,7 +199,7 @@ namespace GHY_SSO.Controllers
                 cookie.Expires = DateTime.Now + TimeSpan.FromDays(30);
                 Response.SetCookie(cookie);
             }
-            return Redirect("~/Home/Index");
+            return Redirect(SiteConfig.SiteUrl+"/Home/Index");
         }
 
         [HttpPost]
@@ -259,16 +284,9 @@ namespace GHY_SSO.Controllers
         {  
             string path = string.Empty;
 
-            path = System.Web.HttpContext.Current.Server.MapPath("..\\EmailTemplate\\index.html");  
-             
-            if (path == string.Empty)  
-            {  
-                return string.Empty;
-            }  
+            path = System.Web.HttpContext.Current.Server.MapPath("..\\EmailTemplate\\index.html");   
             System.IO.StreamReader sr = new System.IO.StreamReader(path);  
-            string str = string.Empty;  
-            str = sr.ReadToEnd();
-            str = str.Replace("$CheckCode$", checkcode);
+            string str = sr.ReadToEnd().Replace("$CheckCode$", checkcode);
   
             return str;  
         }
@@ -290,7 +308,36 @@ namespace GHY_SSO.Controllers
                 Response.Cookies.Add(myCookie);
             }
 
-            return Redirect("~/User/Login");
+            return Redirect(SiteConfig.SiteUrl+"/User/Login");
         }
+
+        #region 私有成员
+        private Bitmap ResizeImg(Image input)
+        {
+            if (input.Width > 1600 || input.Height > 1600)
+            {
+                if (input.Width > input.Height)
+                {
+                    return new Bitmap(input, 1600, input.Height * 1600 / input.Width);
+                }
+                else
+                {
+                    return new Bitmap(input, input.Width * 1600 / input.Height, 1600);
+                }
+            }
+            return new Bitmap(input);
+        }
+        private string GetPath(string name, string foldername)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("GhySsoImages\\");
+            sb.Append(foldername);
+            sb.Append("\\");
+            sb.Append(name);
+            sb.Append("\\");
+            return sb.ToString();
+        }
+
+        #endregion
     }
 }

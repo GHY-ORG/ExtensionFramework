@@ -69,6 +69,12 @@ namespace Hub.Interface.User
         /// <returns></returns>
         string GetNickNameByUserID(Guid userid);
         /// <summary>
+        /// 通过UserID获取头像
+        /// </summary>
+        /// <param name="userid"></param>
+        /// <returns></returns>
+        string GetAvatarByUserID(Guid userid);
+        /// <summary>
         /// 通过UserID数组获取昵称数组
         /// </summary>
         /// <param name="userid"></param>

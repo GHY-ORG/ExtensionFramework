@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title | 光华园网站统一身份认证系统</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    @Styles.Render(SiteConfig.SiteUrl+"/Content/css")
+    @Scripts.Render(SiteConfig.SiteUrl+"/bundles/jquery")
+    @Scripts.Render(SiteConfig.SiteUrl+"/bundles/bootstrap")
     <!--[if lt IE 9]>
-        @Scripts.Render("~/bundles/ie8")
+        @Scripts.Render(SiteConfig.SiteUrl+"/bundles/ie8")
     <![endif]-->
 </head>
 <body>
@@ -25,12 +25,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="~/Home/Index">光华园 个人中心</a>
+                <a class="navbar-brand" href="@SiteConfig.SiteUrl+"/Home/Index">光华园 个人中心</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">@ViewBag.NickName，您好！</a></li>
-                    <li><a href="~/User/Exit">退出</a></li>
+                    <li><a href="@SiteConfig.SiteUrl+"/User/Exit">退出</a></li>
                     <li><a href="http://ghy.cn/aboutus/index.html#1" target="_blank">关于我们</a></li>
                     <li><a href="http://ghy.cn/aboutus/index.html#4" target="_blank">广告宣传</a></li>
                     <li><a href="http://diary.ghy.cn/" target="_blank">网站日志</a></li>

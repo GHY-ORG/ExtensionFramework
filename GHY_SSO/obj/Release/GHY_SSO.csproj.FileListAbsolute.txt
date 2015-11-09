@@ -422,7 +422,6 @@ F:\个人存储\qh\ExtensionFramework\ExtensionFramework\GHY_SSO\bin\zh-Hans\Sys
 F:\个人存储\qh\ExtensionFramework\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.csprojResolveAssemblyReference.cache
 F:\个人存储\qh\ExtensionFramework\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.dll
 F:\个人存储\qh\ExtensionFramework\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.pdb
-F:\个人存储\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.csprojResolveAssemblyReference.cache
 F:\个人存储\ExtensionFramework\GHY_SSO\bin\GHY_SSO.dll.config
 F:\个人存储\ExtensionFramework\GHY_SSO\bin\GHY_SSO.dll
 F:\个人存储\ExtensionFramework\GHY_SSO\bin\GHY_SSO.pdb
@@ -468,5 +467,6 @@ F:\个人存储\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.Razor.resource
 F:\个人存储\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.resources.dll
 F:\个人存储\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 F:\个人存储\ExtensionFramework\GHY_SSO\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\个人存储\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.csprojResolveAssemblyReference.cache
 F:\个人存储\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.dll
 F:\个人存储\ExtensionFramework\GHY_SSO\obj\Release\GHY_SSO.pdb

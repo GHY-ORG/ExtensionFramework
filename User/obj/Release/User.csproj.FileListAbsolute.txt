@@ -94,7 +94,6 @@ G:\WorkSpace\vs-projects\ExtensionFramework\User\obj\Release\User.csprojResolveA
 G:\WorkSpace\vs-projects\ExtensionFramework\User\obj\Release\User.dll
 G:\WorkSpace\vs-projects\ExtensionFramework\User\obj\Release\User.pdb
 G:\WorkSpace\vs-projects\ExtensionFramework\User\obj\Release\User.XmlSerializers.dll
-F:\个人存储\ExtensionFramework\User\obj\Release\User.csprojResolveAssemblyReference.cache
 F:\个人存储\ExtensionFramework\User\bin\Release\User.dll.config
 F:\个人存储\ExtensionFramework\User\bin\Release\User.dll
 F:\个人存储\ExtensionFramework\User\bin\Release\User.XmlSerializers.dll
@@ -107,6 +106,7 @@ F:\个人存储\ExtensionFramework\User\bin\Release\EntityFramework.xml
 F:\个人存储\ExtensionFramework\User\bin\Release\EntityFramework.SqlServer.xml
 F:\个人存储\ExtensionFramework\User\bin\Release\zh-Hans\EntityFramework.resources.dll
 F:\个人存储\ExtensionFramework\User\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\个人存储\ExtensionFramework\User\obj\Release\User.csprojResolveAssemblyReference.cache
 F:\个人存储\ExtensionFramework\User\obj\Release\User.dll
 F:\个人存储\ExtensionFramework\User\obj\Release\User.pdb
 F:\个人存储\ExtensionFramework\User\obj\Release\User.XmlSerializers.dll

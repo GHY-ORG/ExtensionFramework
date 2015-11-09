@@ -10,7 +10,7 @@ using System.Security.Cryptography;
 
 namespace User
 {
-    [Export(typeof(IAuthorizeStrategy))] 
+    [Export(typeof(IAuthorizeStrategy))]
     public class AuthorizeStrategy : IAuthorizeStrategy
     {
         public bool Authorize(Guid UserID, int RoleID)
@@ -49,20 +49,20 @@ namespace User
             }
         }
 
-        public string[] GetRoleName(int[] RoleIDList)
+        public List<Guid> GetRoleName(int[] RoleIDList)
         {
-            string[] rolenameList = new string[RoleIDList.Length];
+            List<Guid> rolenameList = new List<Guid>(RoleIDList.Length);
             using (var db = new ExtensionFrameworkContext())
             {
-                for (int i = 0; i < RoleIDList.Length; i++)
+                foreach (int item in RoleIDList)
                 {
                     var result = (from o in db.Roles
-                                  where o.RoleID == RoleIDList[i] && o.Status > 0
-                                  select o).First();
-                    rolenameList[i] = result.RoleName;
+                                  where o.RoleID == item && o.Status > 0
+                                  select o.RoleName).First();
+                    rolenameList.Add(new Guid(result));
                 }
-                return rolenameList;
             }
+            return rolenameList;
         }
 
         public int[] GetRole(Guid userid)
