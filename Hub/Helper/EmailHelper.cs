@@ -28,7 +28,7 @@ namespace Hub.Helper
 
         public static void SendEmailSSL(string[] toList, string[] ccList, string title, string content, bool isHtml, string myEmail, string myName, SmtpClient client)
         {
-            System.Net.Mail.MailMessage msg = new System.Net.Mail.MailMessage();
+            MailMessage msg = new MailMessage();
             foreach (var i in toList)
             {
                 msg.To.Add(i);
@@ -49,7 +49,7 @@ namespace Hub.Helper
                 client.Send(msg);
                 Console.WriteLine("success");
             }
-            catch (System.Net.Mail.SmtpException ex)
+            catch (SmtpException ex)
             {
                 Console.WriteLine("err" + ex);
             }
