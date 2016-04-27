@@ -110,3 +110,17 @@ F:\个人存储\ExtensionFramework\User\obj\Release\User.csprojResolveAssemblyRe
 F:\个人存储\ExtensionFramework\User\obj\Release\User.dll
 F:\个人存储\ExtensionFramework\User\obj\Release\User.pdb
 F:\个人存储\ExtensionFramework\User\obj\Release\User.XmlSerializers.dll
+E:\ExtensionFramework\User\bin\Release\User.dll.config
+E:\ExtensionFramework\User\bin\Release\User.dll
+E:\ExtensionFramework\User\bin\Release\User.XmlSerializers.dll
+E:\ExtensionFramework\User\bin\Release\User.pdb
+E:\ExtensionFramework\User\bin\Release\EntityFramework.dll
+E:\ExtensionFramework\User\bin\Release\EntityFramework.SqlServer.dll
+E:\ExtensionFramework\User\bin\Release\Hub.dll
+E:\ExtensionFramework\User\bin\Release\Hub.pdb
+E:\ExtensionFramework\User\bin\Release\EntityFramework.xml
+E:\ExtensionFramework\User\bin\Release\EntityFramework.SqlServer.xml
+E:\ExtensionFramework\User\obj\Release\User.csprojResolveAssemblyReference.cache
+E:\ExtensionFramework\User\obj\Release\User.dll
+E:\ExtensionFramework\User\obj\Release\User.pdb
+E:\ExtensionFramework\User\obj\Release\User.XmlSerializers.dll
