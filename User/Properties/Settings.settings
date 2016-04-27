@@ -2,8 +2,8 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="User.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="User_cn_edu_swufe_news_getLdapGHYWSDL" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://news.swufe.edu.cn/soap/v2/api_ldaps_ghy.php/</Value>
+    <Setting Name="User_cn_edu_swufe_oam_getUserAuthWSDL" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://oam.swufe.edu.cn:8888/index.php</Value>
     </Setting>
   </Settings>
 </SettingsFile>

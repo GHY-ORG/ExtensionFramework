@@ -45,3 +45,13 @@ F:\个人存储\ExtensionFramework\Hub\bin\Release\zh-Hans\EntityFramework.SqlSe
 F:\个人存储\ExtensionFramework\Hub\obj\Release\Hub.csprojResolveAssemblyReference.cache
 F:\个人存储\ExtensionFramework\Hub\obj\Release\Hub.dll
 F:\个人存储\ExtensionFramework\Hub\obj\Release\Hub.pdb
+E:\ExtensionFramework\Hub\bin\Release\Hub.dll.config
+E:\ExtensionFramework\Hub\bin\Release\Hub.dll
+E:\ExtensionFramework\Hub\bin\Release\Hub.pdb
+E:\ExtensionFramework\Hub\bin\Release\EntityFramework.dll
+E:\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.dll
+E:\ExtensionFramework\Hub\bin\Release\EntityFramework.xml
+E:\ExtensionFramework\Hub\bin\Release\EntityFramework.SqlServer.xml
+E:\ExtensionFramework\Hub\obj\Release\Hub.dll
+E:\ExtensionFramework\Hub\obj\Release\Hub.pdb
+E:\ExtensionFramework\Hub\obj\Release\Hub.csprojResolveAssemblyReference.cache

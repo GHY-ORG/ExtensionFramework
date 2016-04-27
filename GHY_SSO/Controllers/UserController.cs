@@ -148,11 +148,11 @@ namespace GHY_SSO.Controllers
                     ModelState.AddModelError("NickName", "昵称被占用咯~");
                     return View("Register", model);
                 }
-                /*if (AuthentiationStrategy.ValidStuNumber(model.StuNumber, model.StuPassword) == 0)
+                if (AuthentiationStrategy.ValidStuNumber(model.StuNumber, model.StuPassword) == 0)
                 {
                     ModelState.AddModelError("StuPassword", "学号认证失败");
                     return View("Register", model);
-                }*/
+                }
 
                 //图片不超过5M
                 if (file == null && file.ContentLength > 1024 * 1024 * 5)

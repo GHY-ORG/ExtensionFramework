@@ -69,7 +69,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Web References\cn.edu.swufe.news\Reference.cs">
+    <Compile Include="Web References\cn.edu.swufe.oam\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
@@ -82,8 +82,8 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Web References\cn.edu.swufe.news\item.wsdl" />
-    <None Include="Web References\cn.edu.swufe.news\Reference.map">
+    <None Include="Web References\cn.edu.swufe.oam\index.wsdl" />
+    <None Include="Web References\cn.edu.swufe.oam\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -92,16 +92,16 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="http://news.swufe.edu.cn/soap/v2/api_ldaps_ghy.php/%3fwsdl">
+    <WebReferenceUrl Include="http://oam.swufe.edu.cn:8888/index.php%3fwsdl">
       <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\cn.edu.swufe.news\</RelPath>
-      <UpdateFromURL>http://news.swufe.edu.cn/soap/v2/api_ldaps_ghy.php/%3fwsdl</UpdateFromURL>
+      <RelPath>Web References\cn.edu.swufe.oam\</RelPath>
+      <UpdateFromURL>http://oam.swufe.edu.cn:8888/index.php%3fwsdl</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
       </CachedDynamicPropName>
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>User_cn_edu_swufe_news_getLdapGHYWSDL</CachedSettingsPropName>
+      <CachedSettingsPropName>User_cn_edu_swufe_oam_getUserAuthWSDL</CachedSettingsPropName>
     </WebReferenceUrl>
   </ItemGroup>
   <ItemGroup>

@@ -6,7 +6,7 @@ using System.Data.Linq;
 using System.Security.Cryptography;
 using Hub.Models;
 using Hub.Interface.User;
-using User.cn.edu.swufe.news;
+using User.cn.edu.swufe.oam;
 using System.Text;
 using System.ComponentModel.Composition;
 
@@ -26,10 +26,10 @@ namespace User
         /// <returns>1成功 0失败</returns>
         public int ValidStuNumber(string stunumber, string password)
         {
-            using (getLdapGHYWSDL client = new getLdapGHYWSDL())
+            using (getUserAuthWSDL client = new getUserAuthWSDL())
             {
-                client.Credentials = new System.Net.NetworkCredential("ghy", "mys");
-                if ("2000".Equals(client.chg_ldaps(stunumber, password, 1, " ", "ldap1")))
+                client.Credentials = new System.Net.NetworkCredential("userauth", "oamswufe123");
+                if ("1".Equals(client.userAuth(stunumber, password)))
                     return 1;
                 else return 0;
             }
