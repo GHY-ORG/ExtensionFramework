@@ -208,6 +208,10 @@
       <Project>{eab3779c-4581-4bd0-9c0a-9abd5f7779f6}</Project>
       <Name>Hub</Name>
     </ProjectReference>
+    <ProjectReference Include="..\User\User.csproj">
+      <Project>{871d0426-3ae5-4df9-9ead-f50653c899f2}</Project>
+      <Name>User</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
